@@ -1,28 +1,39 @@
-/*=== Aplicando CSS Global===*/
 *{
-    box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
     margin: 0;
-    padding: 0;
 }
-img{
-    width: 100%;
+h1{ font-size: 2em;}
+h2{ font-size: 1.5em;}
+h3{ font-size: 1em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.2em;}
+
+button{
+font-size: 1em;
+font-weight: bold;
+padding: 10px 15px;
+border-radius: 10px;
+border: 1px solid rgba(#FC7300 , #1F8A70 , #00425A);
+box-shadow: 1.5px 1.5px 6px rgba(#FC7300 , #1F8A70 , #00425A);
+color: white;
+background-color: #1F8A70;
+
 }
-ul{
-    list-style-type: none;
+button:hover{
+background-color: #FC7300;
 }
 
-/*=== Aplicando CSS al encabezado===*/
-#logo{
-    width: 50%;
-    margin: auto;
-    padding-top: 10px;
-}
-#menu{
-    text-align: center;
+.container{
+max-width: 1400px;
+margin: auto;
 }
 
-html{
-scroll-behavior: smooth;
+header{
+background-color: aliceblue;
 }
-
-
