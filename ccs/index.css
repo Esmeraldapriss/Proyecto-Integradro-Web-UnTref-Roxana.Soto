@@ -2,11 +2,11 @@
 box-sizing: border-box;
 }
 
-
 body{
     font-family: Georgia, 'Times New Roman', Times, serif ;
     margin: 0;
 }
+
 h1{ font-size: 2em;}
 h2{ font-size: 1.5em;}
 h3{ font-size: 1em;}
@@ -23,8 +23,8 @@ border: 1px solid rgba(#FC7300 , #1F8A70 , #00425A);
 box-shadow: 1.5px 1.5px 6px rgba(#FC7300 , #1F8A70 , #00425A);
 color: white;
 background-color: #1F8A70;
-
 }
+
 button:hover{
 background-color: #FC7300;
 }
@@ -34,6 +34,78 @@ max-width: 1400px;
 margin: auto;
 }
 
+.color-acento{color: aqua;
+}
 header{
 background-color: aliceblue;
+
 }
+
+header .logo{
+background-image: url(img/Banner1.jpg);
+margin: 0;
+padding: 25px 30px;
+font-weight: bold;
+color: #1F8A70;
+font-size: 1.5em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header nav{
+display: flex;
+flex-direction: column;
+text-align: center;
+padding-bottom: 25px;
+}
+
+header a{
+padding: 5px 12px;
+text-decoration: none;
+font-weight: bold;
+color: black;
+}
+
+header a:hover{
+color: #FC7300;
+}
+
+#hero{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,5),
+      rgba(0,0,0,5)
+)
+,url(".img/docente.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#hero h1{
+color: aqua;
+}
+
+#Informacion-UntrefSchool .container{
+text-align: center;
+padding: 200px 12px;
+}
+
+#¿porque-elergirnos? .container{
+padding: 100px 0px;
+}
+
+#¿porque-elergirnos?{
+    background-color: rgb(30,30,30);
+    color: white
+    }
