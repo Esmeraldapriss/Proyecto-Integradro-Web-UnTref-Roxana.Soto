@@ -12,7 +12,7 @@
     <header id="encabezado">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#">UntrefSchool</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -30,7 +30,7 @@
             <p class="Titulo">UntrefSchool</p>
         <nav>
             <a href="">Quienes Somos</a>
-            <a href="">¿Porque elergirnos?</a>
+            <a href="porque-elerginos">¿Porque elergirnos?</a>
             <a href="">Propuesta Educativa</a>
                 <a href="">Últimas Noticias</a>
                 <figure id="logo">
@@ -39,15 +39,29 @@
             </nav>
         </div>
     </header>
-    
-    <section id="hero">
-        <h1>Somos el modelo  <br>del Futuro</h1>
-        <img src="img/docente.jpg" class="img01" alt="">
-        <form action="insertar vinculo de formulario">
-        <button>Formulario de Inscripción</button>
-        </form>
+    <section id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/docente.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-control-next" data-bs-interval="2000">
+            <img src="./img/tabl.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/plan.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
     </section>
-
+    
+            
     <section id="Informacion-UntrefSchool">       
         <div class="container">
 
@@ -57,15 +71,17 @@
 </div>
     </section>
 
-    <section id="¿porque-elergirnos?">
-        <div class="container">
+    <section id="nuestro-programas">
+        <div class="card text-bg fw-bold">
+            <img src="./img/Mun.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="display-7 text-center p-2 titulo fw-bold">¿Porque Elegirnos?</h5>
+              <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi illo id, nisi officiis unde esse animi fugit vero commodi alias modi nulla doloribus. Atque, aut? Laborum asperiores dignissimos quasi accusamus.</p>
+              <p class="button"> <button><small>Mas Info</small></button></p>
+            </div>
+         
         </div>
-            <div class="carta">
-            <h3>¿Porquen Elegirnos?<front-end></front-end></h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet vero odit ipsam? Vero veritatis consectetur impedit distinctio totam explicabo tenetur sapiente, accusantium quis nostrum repellendus aliquam iure corporis adipisci.</p>
-            <Button>Mas Info</Button>
-        </div>
-        <div class="carta">
+          <div class="carta">
             <h3>Propuestas Educaticas</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid est porro assumenda non minima esse fugit consequatur laudantium deleniti sed praesentium harum ipsa iure hic eaque, nostrum totam temporibus recusandae.</p>
             <button>+ Info</button>
