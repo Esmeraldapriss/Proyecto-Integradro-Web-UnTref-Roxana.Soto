@@ -1,134 +1,59 @@
-*{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
-img{ width: 100%;
-}
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif ;
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
-ul{
-    list-style-type: none;
-}
-html{
+html {
     scroll-behavior: smooth;
 }
-/*=== Aplicando CSS al encabezado===*/
-.logo{
-    width: 100% 50%;
-    margin: auto;
-    padding-top: 10px;
-    align-items: center;
-    background-image: url(../img/corazon.jpg);
-    padding: 2rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+a {
+    text-decoration: none;
+    color:green;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+header .logo {
+    margin: 0;
+    padding: 1.5625rem 1.875rem;
+   
+    width: 3rem;
     height: 3rem;
 }
 
-/*=== Aplicando comportamiento resposive o adaptativo===*/
-/* Medium devices (tablets, 768px and up)*/
-/*=== Trabajando con CSS-GRID===*/
-@media (min-width: 768px) { 
 
-h1{ font-size: 2em;}
-h2{ font-size: 1.5em;}
-h3{ font-size: 1em;}
-p{ font-size: 1.25em;}
-ul{ list-style: none;}
-li{ font-size: 1.2em;
+#contenedorCarrousell {
+    width: 80%;
 }
 
-button{
-font-size: 1em;
-font-weight: bold;
-padding: 10px 15px;
-border-radius: 10px;
-border: 1px solid rgba(#FC7300 , #1F8A70 , #00425A);
-box-shadow: 1.5px 1.5px 6px rgba(#FC7300 , #1F8A70 , #00425A);
-color: white;
-background-color: #1F8A70;
+
+
+ h1 {
+    color: #00ff99;
 }
 
-button:hover{
-background-color: #FC7300;
-}
 
-.container{
-max-width: 1000px;
-margin: auto;
+.card{
+    height:fit-content;
+    margin-bottom: 2rem;
+   
 }
-
-.color-acento{color: aqua;
-}
-header{
-background-color: aliceblue;
-}
-
-header .logo{
-margin: 0;
-padding: 25px 30px;
-font-weight: bold;
-color: #1F8A70;
-font-size: 1.5em;
-}
-
-header .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-
-header a{
-padding: 5px 12px;
-text-decoration: none;
-font-weight: bold;
-color: black;
-}
-
-header a:hover{
-color: #FC7300;
-}
-
-#hero{
-     display: flex;
-    align-items: center;
-    justify-content: center;
+.card h3{
     text-align: center;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-#hero h1{
-color: #00ff99;
 }
 
-#Informacion-UntrefSchool .card{
-text-align: center;
-padding: 200px 12px;
-}
-
-
- /*=== Aplicando CSS al Footer===*/
- #piePagina{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr 0.5fr;
-    justify-items: center;
-    align-items: center;
-    background-color:#1F8A70;
-    color: black;
-}
-#redesSociales{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
-    color: black;
-}
-ion-icon{
-    color: black;
-    font-size: 2rem;
+.iconoRedes{
+    width:3rem;
+    height: 3rem;
+    color: #00ff99;
 }
