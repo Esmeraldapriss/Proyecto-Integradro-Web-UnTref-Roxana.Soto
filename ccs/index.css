@@ -30,10 +30,12 @@ header .logo {
     width: 3rem;
     height: 3rem;
 }
-
+#encabezado{
+text-align: center;
+}
 
 #contenedorCarrousell {
-    width: 80%;
+    width: 100%;
 }
 
 
@@ -42,12 +44,37 @@ header .logo {
     color: #00ff99;
 }
 
-
-.card{
+#Informacion-UntrefSchool .card{
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: #10528b (50, 50, 50, 1);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.card:first-child{
     height:fit-content;
     margin-bottom: 2rem;
-   
+    background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5);
+    backdrop: filter 2px;;
 }
+   
+.card:nth-child(2){
+    backdrop-filter: rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5);
+    
+    }
+ .card:nth-child(3){
+    background-image: linear-gradie
+          0deg,
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)
+     }
+    
+
 .card h3{
     text-align: center;
 }
