@@ -59,7 +59,7 @@ text-align: center;
     0deg,
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5);
-    backdrop: filter 2px;;
+    backdrop: filter 2px;
 }
    
 .card:nth-child(2){
